@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "BitCont",
+    "slug": "BitCont",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",  
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.lilytorrx.bitcont",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bea60c08-e396-4325-a25e-bf91ba99112e"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bea60c08-e396-4325-a25e-bf91ba99112e"
+    }
+  }
+}
