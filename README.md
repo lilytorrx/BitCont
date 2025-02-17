@@ -1,6 +1,6 @@
 # BitCont
 
-<img src="bitcoinLogo.png"></img>
+<img src="icon.png"></img>
 
 **BitCont** é um aplicativo desenvolvido com **React Native** para consulta de cotações de Bitcoin, consumindo uma API de preços. O aplicativo oferece uma interface simples para visualizar a cotação do Bitcoin em tempo real, além de gráficos históricos.
 
@@ -29,9 +29,11 @@ Aqui estão algumas das tecnologias e ferramentas utilizadas no desenvolvimento 
 - O usuário pode filtrar as cotações com base nos períodos de dias, indo de 7 dias até um mês. / The user can filter the prices based on periods of days, ranging from 7 days to one month.
 
 - Cotação de 15 dias
+
 <img src="/assets/print15.jpg"></img>
 
 - Cotação de 30 dias
+
 <img src="/assets/print30.jpg"></img>
 
 
