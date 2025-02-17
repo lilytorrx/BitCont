@@ -1,6 +1,6 @@
 # BitCont
 
-<img src="icon.png"></img>
+<img src="/assets/icon.png"></img>
 
 **BitCont** é um aplicativo desenvolvido com **React Native** para consulta de cotações de Bitcoin, consumindo uma API de preços. O aplicativo oferece uma interface simples para visualizar a cotação do Bitcoin em tempo real, além de gráficos históricos.
 
