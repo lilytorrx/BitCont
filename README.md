@@ -1,4 +1,4 @@
-# BitCont
+# BitCont <a href="https://www.mediafire.com/file/77ywrwwp1yc47m4/bitcont.apk/file">Link para download</a>
 
 <img src="/assets/icon.png"></img>
 
