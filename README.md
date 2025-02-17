@@ -32,7 +32,7 @@ Aqui estão algumas das tecnologias e ferramentas utilizadas no desenvolvimento 
 ![Tela de Cotações de 15 dias]("assets/print15.jpg)
 
 - Cotação de 30 dias
-![Tela de Cotações de 30 dias]("assets/print30.jpg)
+![Tela de Cotações de 30 dias]<img src="/assets/print30.jpg"></img>
 
 
 - **Interface Intuitiva** / Intuitive Interface: O aplicativo foi projetado para ser simples e fácil de usar. / The app is designed to be simple and user-friendly.
