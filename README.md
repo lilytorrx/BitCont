@@ -1,6 +1,6 @@
-# BitCont
+# BitCont <a href="https://www.mediafire.com/file/77ywrwwp1yc47m4/bitcont.apk/file">Link para download</a>
 
-
+<img src="/assets/icon.png"></img>
 
 **BitCont** é um aplicativo desenvolvido com **React Native** para consulta de cotações de Bitcoin, consumindo uma API de preços. O aplicativo oferece uma interface simples para visualizar a cotação do Bitcoin em tempo real, além de gráficos históricos.
 
@@ -24,15 +24,17 @@ Aqui estão algumas das tecnologias e ferramentas utilizadas no desenvolvimento 
   
 - **Gráficos Históricos** / Historical Charts: O usuário pode visualizar gráficos com o histórico de preços do Bitcoin ao longo do tempo. / The user can view charts with the historical prices of Bitcoin over time.
 
-![Tela de Cotação]("assets/print7.jpg")
+<img src="/assets/print7.jpg"></img>
 
 - O usuário pode filtrar as cotações com base nos períodos de dias, indo de 7 dias até um mês. / The user can filter the prices based on periods of days, ranging from 7 days to one month.
 
 - Cotação de 15 dias
-![Tela de Cotações de 15 dias]("assets/print15.jpg)
+
+<img src="/assets/print15.jpg"></img>
 
 - Cotação de 30 dias
-![Tela de Cotações de 30 dias]("assets/print30.jpg)
+
+<img src="/assets/print30.jpg"></img>
 
 
 - **Interface Intuitiva** / Intuitive Interface: O aplicativo foi projetado para ser simples e fácil de usar. / The app is designed to be simple and user-friendly.
@@ -41,7 +43,7 @@ Aqui estão algumas das tecnologias e ferramentas utilizadas no desenvolvimento 
 
 - O sistema disponibiliza um campo para o usuário colocar seu nome e, assim que ele coloca, o texto de boas-vindas atualiza com o nome inserido. / The system provides a field for the user to enter their name, and as soon as they do, the welcome message updates with the entered name.
 
-![Modal]("assets/printModal.jpg")
+<img src="/assets/printModal.jpg"></img>
 
 --
 

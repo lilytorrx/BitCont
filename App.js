@@ -23,7 +23,7 @@ async function getPrecoMoedas(url) {
     let response = await fetch(url);
     let returnAPI = await response.json();
 
-    // Verificar se a resposta contém a chave 'prices' e se ela é um array
+  
     if (!returnAPI.prices || !Array.isArray(returnAPI.prices)) {
       throw new Error("A API não retornou dados válidos de 'prices'.");
     }
@@ -42,7 +42,7 @@ async function getPrecoMoedas(url) {
     return data;
   } catch (error) {
     console.error("Erro ao buscar dados da API:", error);
-    return []; // Retorna um array vazio em caso de erro
+    return [];
   }
 }
 
@@ -51,7 +51,6 @@ async function getPrecoMoedasGrafico(url) {
     let respondeGrafico = await fetch(url);
     let returnAPIGrafico = await respondeGrafico.json();
 
-    // Verificar se a resposta contém a chave 'prices' e se ela é um array
     if (!returnAPIGrafico.prices || !Array.isArray(returnAPIGrafico.prices)) {
       throw new Error("A API não retornou dados válidos de 'prices' para o gráfico.");
     }
@@ -63,7 +62,7 @@ async function getPrecoMoedasGrafico(url) {
     return dataGrafico;
   } catch (error) {
     console.error("Erro ao buscar dados para o gráfico:", error);
-    return []; // Retorna um array vazio em caso de erro
+    return [];
   }
 }
 
@@ -81,7 +80,6 @@ export default function App() {
       setModalVisible(true); // Exibe o modal para o nome
     }
 
-    // Verifica se a requisição para a API é necessária
     const fetchData = async () => {
       console.log("Requisitando dados com filtro de dias:", dias);
 
@@ -121,7 +119,6 @@ export default function App() {
       <Text styles={styles.historico}>Desenvolvido por lilytorrx</Text>
       <ListaCotacao filtroDia={setDias} listaTransacoes={listaMoedas} />
 
-      {/* Modal para solicitar nome do usuário */}
       <Modal visible={modalVisible} animationType="slide" transparent={true} onRequestClose={() => setModalVisible(false)}>
         <View style={styles.modalContainer}>
           <View style={styles.modalContent}>
