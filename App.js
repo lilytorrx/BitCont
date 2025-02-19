@@ -118,6 +118,7 @@ export default function App() {
       <PrecoAtual ultimaCotacao={ultimaCotacao} />
       <Text style={styles.historico}>Histórico e gráfico de cotações</Text>
       <HistoricoGrafico infoDataGrafico={listaGraficoMoedas} />
+      <Text styles={styles.historico}>Desenvolvido por lilytorrx</Text>
       <ListaCotacao filtroDia={setDias} listaTransacoes={listaMoedas} />
 
       {/* Modal para solicitar nome do usuário */}
